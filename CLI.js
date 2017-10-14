@@ -11,6 +11,6 @@ var questions = {
 };
 
 
-console.log("\n================\n");
+console.log("\n");
 console.log(questions.Question1);
-console.log("\n================\n");
+console.log("\n");
