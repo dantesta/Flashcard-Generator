@@ -1,5 +1,5 @@
 var BasicCard = require("./BasicCard.js");
-// var ClozeCard = require("./ClozeCard.js");
+var ClozeCard = require("./ClozeCard.js");
 
 
 var questionsBasic = {
@@ -35,6 +35,19 @@ var questionsBasic = {
 	),
 };
 
+var questionsCloze = {
+
+	Question1: ClozeCard (
+		"Lincoln was known as the Great Emancipator", 
+		"Lincoln"
+	),
+
+	Question2: ClozeCard (
+		"England's national sport is Cricket",
+		"Cricket"
+	),
+}
+
 
 console.log("\n");
 console.log(questionsBasic.Question1);
@@ -49,4 +62,14 @@ console.log(questionsBasic.Question5);
 console.log("\n");
 console.log(questionsBasic.Question6);
 console.log("\n");
+
+console.log("\n");
+console.log(questionsCloze.Question1);
+console.log("\n");
+console.log(questionsCloze.Question2);
+
+
+
+
+
 
